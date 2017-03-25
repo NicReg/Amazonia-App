@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bonus_text">\"SABÍAS QUE EL 70% DE LAS PLANTAS CONOCIDAS POR SU PODER ANTICANCERÍGENO PROVIENENE DE LA AMAZONIA!!!\"</string>
+    <string name="bonus_text_header">Curiosidad Extra:</string>
+    <string name="button_score_quiz">Resultado del Acertijo</string>
+    <string name="eighth_question_header">* Pregunta 8.</string>
+    <string name="eighth_question_radiobutton_first_answer">Loro Mealy.</string>
+    <string name="eighth_question_radiobutton_second_answer">Trogón Enmascarado.</string>
+    <string name="eighth_question_radiobutton_third_answer">Guacamaya Roja.</string>
+    <string name="eighth_question_text">Cuál es el nombre de esta ave de la Amazonia?</string>
+    <string name="eighth_question_right_message">La respuesta de la pregunta 8 es correcta.</string>
+    <string name="eighth_question_wrong_message">Lo siento, la respuesta a la pregunta 8 es Guacamaya Roja.</string>
+    <string name="fifth_question_header">* Pregunta 5.</string>
+    <string name="fifth_question_radiobutton_second_answer">Brasil.</string>
+    <string name="fifth_question_radiobutton_third_answer">Colombia.</string>
+    <string name="fifth_question_radiobutton_first_answer">Perú.</string>
+    <string name="fifth_question_text">Que país contiene el 60% de la selva tropical de la Amazonia?</string>
+    <string name="fifth_question_right_message" translatable="false">La respuesta de la pregunta 5 es correcta.</string>
+    <string name="fifth_question_wrong_message" translatable="false">Lo siento, la respuesta a la pregunta 5 es Brasil.</string>
+    <string name="first_question_answer_chile">Chile.</string>
+    <string name="first_question_answer_paraguay">Paragüay.</string>
+    <string name="first_question_answer_peru">Perú.</string>
+    <string name="first_question_answer_suriname">Suriname.</string>
+    <string name="first_question_header">* Pregunta 1.</string>
+    <string name="first_question_text">Cuáles de estos países contienen parte de la Amazonia?</string>
+    <string name="first_question_right_message">La respuesta de la pregunta 1 es correcta.</string>
+    <string name="first_question_wrong_message">Lo siento, la respuesta a la pregunta 1 es Perú y Suriname</string>
+    <string name="fourth_question_header">* Pregunta 4.</string>
+    <string name="fourth_question_radiobutton_third_answer">Hernán Cortés.</string>
+    <string name="fourth_question_text">A qué conquistador se le asigna el nombre de la Amazonia?.</string>
+    <string name="fourth_question_right_message">La respuesta de la pregunta 4 es correcta.</string>
+    <string name="fourth_question_wrong_message">Lo siento, la respuesta a la pregunta 4 es Francisco de Orellana.</string>
+    <string name="nineth_question_header">* Pregunta 9.</string>
+    <string name="nineth_question_text">Qué porcentaje del oxígeno, en todo el mundo, es producido por la selva tropical de la Amazonia?.</string>
+    <string name="ninth_question_right_message">La respuesta de la pregunta 9 es correcta, alrededor del 20%.</string>
+    <string name="ninth_question_wrong_message">Lo siento, la respuesta a la pregunta 4 es alrededor del 20%.</string>
+    <string name="quiz_title">\"¡Vamos a ver cuanto sabes sobre la Amazonia!\"</string>
+    <string name="app_name">Acertijo del Amazonia</string>
+    <string name="button_score_quiz_final_message">"El porcentaje de aciertos es: "</string>
+    <string name="button_try_quiz_again">Probar otra vez?</string>
+    <string name="second_question_header">* Pregunta 2.</string>
+    <string name="second_question_text">Cuántos países comparten la Amazonia?.</string>
+    <string name="second_question_right_message">La respuesta de la pregunta 2 es correcta.</string>
+    <string name="second_question_wrong_message">Lo siento, la respuesta a la pregunta 2 es 7.</string>
+    <string name="seventh_question_header">* Pregunta 7.</string>
+    <string name="seventh_question_radiobutton_answer_yes">Sí.</string>
+    <string name="seventh_question_text">Crees que el río Amazón tiene más de 8.000 kilómetros de largo?.</string>
+    <string name="seventh_question_right_message">La respuesta de la pregunta 7 es correcta.</string>
+    <string name="seventh_question_wrong_message">Lo siento, la respuesta a la pregunta 7 es No.</string>
+    <string name="sixth_question_first_check_button_answer">Tiburón Lamia.</string>
+    <string name="sixth_question_header">* Pregunta 6.</string>
+    <string name="sixth_question_second_check_button_answer">Delfín de río.</string>
+    <string name="sixth_question_text">Cuáles de estos animales puedes encontrar en la Amazonia?.</string>
+    <string name="sixth_question_third_check_button_answer">Manatí.</string>
+    <string name="sixth_question_right_message">La respuesta de la pregunta 6 es correcta.</string>
+    <string name="sixth_question_wrong_message">Lo siento, la respuesta a la pregunta 7 es TODOS.</string>
+    <string name="tenth_question_header">* Pregunta 10.</string>
+    <string name="tenth_question_text">Qué porcentaje representa la Amazonia sobre la selva tropical del planeta?.</string>
+    <string name="tenth_question_right_message">La respuesta de la pregunta 10 es correcta.</string>
+    <string name="tenth_question_wrong_message">Lo siento, la respuesta a la pregunta 7 es, alrededor del 55%.</string>
+    <string name="third_question_header">* Pregunta 3.</string>
+    <string name="third_question_radiobutton_first_answer">Tucán</string>
+    <string name="third_question_radiobutton_second_answer">Guacamayo</string>
+    <string name="third_question_text">Cuál es el nombre de esta especie de la Amazonia?</string>
+    <string name="third_question_right_message">La respuesta de la pregunta 3 es correcta.</string>
+    <string name="third_question_wrong_message">Lo siento, la respuesta a la pregunta 3 es Tucán.</string>
+</resources>

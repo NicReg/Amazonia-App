@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Setting the ScrollView to cover fact of scroll across the possible amount of questions in the quiz being over
+ the initial screen view.-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollview_covering_app"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/backgroundlights">
+    <!-- Setting the relativelayout that will cover all the linear layouts, vertical and horizontal holding the questions.-->
+    <RelativeLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true"
+        android:padding="16dp"
+        tools:context="com.example.android.amazoniaquiz.MainActivity">
+        <!-- Vertical linearlayout to hold the answers and question 1.-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!-- TextView to present the quiz.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/quiz_title"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+            <!-- View to put a horizontal line to separate the quiz presentation from the questions.-->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/darker_gray" />
+            <!-- Layout for the first question and answers.-->
+            <TextView
+                style="@style/TextQuestionsHeader"
+                android:text="@string/first_question_header"></TextView>
+
+            <TextView
+                android:id="@+id/first_question"
+                style="@style/TextQuestions"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:text="@string/first_question_text"></TextView>
+
+            <CheckBox
+                android:id="@+id/first_question_answer_peru"
+                style="@style/EditRadioCheckButtons"
+                android:layout_marginLeft="40dp"
+                android:text="@string/first_question_answer_peru" />
+
+            <CheckBox
+                android:id="@+id/first_question_answer_suriname"
+                style="@style/EditRadioCheckButtons"
+                android:layout_marginLeft="40dp"
+                android:text="@string/first_question_answer_suriname" />
+
+            <CheckBox
+                android:id="@+id/first_question_answer_chile"
+                style="@style/EditRadioCheckButtons"
+                android:layout_marginLeft="40dp"
+                android:text="@string/first_question_answer_chile" />
+
+            <CheckBox
+                android:id="@+id/first_question_answer_paraguay"
+                style="@style/EditRadioCheckButtons"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="40dp"
+                android:text="@string/first_question_answer_paraguay" />
+            <!-- Layout for the the question and answers, starting with the question number vertically, 2.-->
+            <TextView
+                style="@style/TextQuestionsHeader"
+                android:text="@string/second_question_header"></TextView>
+            <!-- Horizontal layout to set the question and answers.-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/second_question"
+                    style="@style/TextQuestions"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:text="@string/second_question_text"></TextView>
+
+                <EditText
+                    android:id="@+id/editText_question_two"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/second_question_edittext_hint"
+                    android:inputType="number"
+                    android:padding="10dp"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+            <!-- Returning to the main linearlayout (vertical) to start question 3.-->
+            <TextView
+                style="@style/TextQuestionsHeader"
+                android:text="@string/third_question_header"></TextView>
+
+            <TextView
+                android:id="@+id/third_question"
+                style="@style/TextQuestions"
+                android:text="@string/third_question_text"></TextView>
+            <!-- Horizontal layout to set the question and answers.-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="146dp"
+                    android:layout_height="113dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/amazoniatucan" />
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/third_radio_button_toucan"
+                        style="@style/EditRadioCheckButtons"
+                        android:text="@string/third_question_radiobutton_first_answer"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                    <RadioButton
+                        android:id="@+id/third_radio_button_macaws"
+                        style="@style/EditRadioCheckButtons"
+                        android:text="@string/third_question_radiobutton_second_answer" />
+
+                    <RadioButton
+                        android:id="@+id/third_radio_button_hoatzin"
+                        style="@style/EditRadioCheckButtons"
+                        android:text="@string/third_question_radiobutton_third_answer" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+            <!-- Returning to the main linearlayout (vertical) to start question 4.-->
+            <TextView
+                style="@style/TextQuestionsHeader"
+                android:text="@string/fourth_question_header"></TextView>
+
+            <TextView
+                android:id="@+id/fourth_question"
+                style="@style/TextQuestions"
+                android:text="@string/fourth_question_text"></TextView>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/fourth_radio_button_francisco_pizarro"
+                    style="@style/EditRadioCheckButtons"
+                    android:layout_marginLeft="40dp"
+                    android:text="@string/fourth_question_radiobutton_first_answer" />
+
+                <RadioButton
+                    android:id="@+id/fourth_radio_button_francisco_orellana"
+                    style="@style/EditRadioCheckButtons"
+                    android:layout_marginLeft="40dp"
+                    android:text="@string/fourth_question_radiobutton_second_answer" />
+
+                <RadioButton
+                    android:id="@+id/fourth_radio_button_hernan_cortes"
+                    style="@style/EditRadioCheckButtons"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/fourth_question_radiobutton_third_answer" />
+
+            </RadioGroup>
+            <!-- Keeping in the original linearlayout (vertical) to start question 5.-->
+            <TextView
+                style="@style/TextQuestionsHeader"
+                android:text="@string/fifth_question_header"></TextView>
+
+            <TextView
+                android:id="@+id/fifth_question"
+                style="@style/TextQuestions"
+                android:text="@string/fifth_question_text"></TextView>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/fifth_question_radio_button_peru"
+                    style="@style/EditRadioCheckButtons"
+                    android:layout_marginLeft="40dp"
+                    android:text="@string/fifth_question_radiobutton_first_answer" />
+
+                <RadioButton
+                    android:id="@+id/fifth_question_radio_button_brazil"
+                    style="@style/EditRadioCheckButtons"
+                    android:layout_marginLeft="40dp"
+                    android:text="@string/fifth_question_radiobutton_second_answer" />
+
+                <RadioButton
+                    android:id="@+id/fifth_question_radio_button_colombia"
+                    style="@style/EditRadioCheckButtons"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/fifth_question_radiobutton_third_answer" />
+            </RadioGroup>
+            <!-- Keeping in the original linearlayout (vertical) to start question 6.-->
+            <TextView
+                style="@style/TextQuestionsHeader"
+                android:text="@string/sixth_question_header"></TextView>
+
+            <TextView
+                android:id="@+id/sixth_question"
+                style="@style/TextQuestions"
+                android:text="@string/sixth_question_text"></TextView>
+            <!-- Horizontal layout to set the first image and answer of this question.-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="125dp"
+                    android:layout_height="75dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/amazonialamiashark" />
+
+                <CheckBox
+                    android:id="@+id/sixth_question_answer_lamia_shark"
+                    style="@style/EditRadioCheckButtons"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="20dp"
+                    android:hint="@string/sixth_question_first_check_button_answer" />
+
+            </LinearLayout>
+            <!-- Horizontal layout to set the second image and answer of this question.-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="125dp"
+                    android:layout_height="75dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/amazoniadolphin" />
+
+                <CheckBox
+                    android:id="@+id/sixth_question_answer_river_dolphin"
+                    style="@style/EditRadioCheckButtons"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="20dp"
+                    android:hint="@string/sixth_question_second_check_button_answer" />
+
+            </LinearLayout>
+            <!-- Horizontal layout to set the third image and answer of this question.-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="125dp"
+                    android:layout_height="75dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/amazoniamanati" />
+
+                <CheckBox
+                    android:id="@+id/sixth_question_answer_manati"
+                    style="@style/EditRadioCheckButtons"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="20dp"
+                    android:hint="@string/sixth_question_third_check_button_answer" />
+
+            </LinearLayout>
+            <!-- Returning to the main linearlayout (vertical) to start question 7.-->
+            <TextView
+                  style="@style/TextQuestionsHeader"
+                android:text="@string/seventh_question_header"></TextView>
+
+            <TextView
+                android:id="@+id/seventh_question"
+                style="@style/TextQuestions"
+                android:text="@string/seventh_question_text"></TextView>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/seven_question_radio_button_yes"
+                    style="@style/EditRadioCheckButtons"
+                    android:layout_marginLeft="40dp"
+                    android:text="@string/seventh_question_radiobutton_answer_yes" />
+
+                <RadioButton
+                    android:id="@+id/seven_question_radio_button_no"
+                    style="@style/EditRadioCheckButtons"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="40dp"
+                    android:text="@string/seventh_question_radiobutton_answer_no" />
+            </RadioGroup>
+            <!-- Keeping in the original linearlayout (vertical) to start question 8.-->
+            <TextView
+                style="@style/TextQuestionsHeader"
+                android:text="@string/eighth_question_header"></TextView>
+
+            <TextView
+                android:id="@+id/eighth_question"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                style="@style/TextQuestions"
+                android:text="@string/eighth_question_text"></TextView>
+            <!-- Horizontal layout to set the image and answers of this question.-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="215dp"
+                    android:layout_height="115dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/amazoniascarletmacaw" />
+
+                <RadioGroup
+                    android:id="@+id/radiogroup_question_eight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/eighth_third_radio_button_mealy_parrot"
+                        style="@style/EditRadioCheckButtons"
+                        android:text="@string/eighth_question_radiobutton_first_answer" />
+
+                    <RadioButton
+                        android:id="@+id/eighth_third_radio_button_masked_trogon"
+                        style="@style/EditRadioCheckButtons"
+                        android:text="@string/eighth_question_radiobutton_second_answer" />
+
+                    <RadioButton
+                        android:id="@+id/eighth_third_radio_button_scarlet_macaw"
+                        style="@style/EditRadioCheckButtons"
+                        android:text="@string/eighth_question_radiobutton_third_answer" />
+                </RadioGroup>
+            </LinearLayout>
+            <!-- Keeping in the original linearlayout (vertical) to start question 9.-->
+            <TextView
+                style="@style/EditRadioCheckButtons"
+                android:text="@string/ninth_question_header"></TextView>
+            <!-- Horizontal layout to set the question and answers.-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/nineth_question"
+                    style="@style/TextQuestions"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:text="@string/ninth_question_text"></TextView>
+
+                <EditText
+                    android:id="@+id/editText_question_nine"
+                    style="@style/EditRadioCheckButtons"
+                    android:hint="@string/ninth_question_edittext_hint"
+                    android:inputType="number"
+                    android:padding="10dp" />
+
+            </LinearLayout>
+            <!-- Keeping in the original linearlayout (vertical) to start question 10.-->
+            <TextView
+                style="@style/EditRadioCheckButtons"
+                android:text="@string/tenth_question_header"></TextView>
+
+            <TextView
+                android:id="@+id/tenth_question"
+                style="@style/TextQuestions"
+                android:text="@string/tenth_question_text"></TextView>
+
+            <RadioGroup
+                android:id="@+id/radiogroup_question_ten"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/tenth_question_radio_button_75"
+                    style="@style/TextQuestions"
+                    android:layout_marginLeft="40dp"
+                    android:text="@string/tenth_question_radiobutton_first_answer" />
+
+                <RadioButton
+                    android:id="@+id/tenth_question_radio_button_55"
+                    style="@style/TextQuestions"
+                    android:layout_marginLeft="40dp"
+                    android:text="@string/tenth_question_radiobutton_second_answer" />
+
+                <RadioButton
+                    android:id="@+id/tenth_question_radio_button_45"
+                    style="@style/TextQuestions"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="40dp"
+                    android:text="@string/tenth_question_radiobutton_third_answer" />
+            </RadioGroup>
+            <!-- Keeping in the original linearlayout (vertical) to include the Curious Fact text.-->
+            <TextView
+                style="@style/TextQuestionsHeader"
+                android:layout_marginTop="10dp"
+                android:text="@string/bonus_text_header"></TextView>
+
+            <TextView
+                style="@style/TextQuestions"
+                android:text="@string/bonus_text"></TextView>
+            <!-- Horizontal layout to set the two buttons at the end of the questioner Get Quit Score and Want to Try Again?.-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="20dp"
+                    android:onClick="getScoreOfQuiz"
+                    android:text="@string/button_score_quiz"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="20dp"
+                    android:onClick="tryQuizAgain"
+                    android:text="@string/button_try_quiz_again"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

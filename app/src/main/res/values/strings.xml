@@ -1,0 +1,162 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Amazonia Quiz</string>
+    <!-- Quiz Title -->
+    <string name="quiz_title">"Let's see how much you know about The Amazonia!"</string>
+
+    <!-- First Question Name -->
+    <string name="first_question_header">* Question 1.</string>
+    <!-- First Question text -->
+    <string name="first_question_text">Which of these countries contain part of the Amazonia?</string>
+    <!-- First Question Answer Peru -->
+    <string name="first_question_answer_peru">Peru.</string>
+    <!-- First Question Answer Suriname -->
+    <string name="first_question_answer_suriname">Suriname.</string>
+    <!-- First Question Answer Chile -->
+    <string name="first_question_answer_chile">Chile.</string>
+    <!-- First Question Answer Paraguay -->
+    <string name="first_question_answer_paraguay">Paraguay.</string>
+    <!-- First question right answer message -->
+    <string name="first_question_right_message">The answer to first question is right!</string>
+    <!-- First question wrong answer message -->
+    <string name="first_question_wrong_message">Sorry, the right answer to first question are Peru and Suriname.</string>
+
+    <!-- Second Question Name -->
+    <string name="second_question_header">* Question 2.</string>
+    <!-- Second Question text -->
+    <string name="second_question_text">How many countries share the Amazonia?</string>
+    <!-- Second Question edittext hint -->
+    <string name="second_question_edittext_hint">Type number here</string>
+    <!-- Second question right answer message -->
+    <string name="second_question_right_message">The answer to second question is right!</string>
+    <!-- Second question wrong answer message -->
+    <string name="second_question_wrong_message">Sorry, the right answer to second question is 7.</string>
+
+    <!-- Third Question Name -->
+    <string name="third_question_header">* Question 3.</string>
+    <!-- Third Question text -->
+    <string name="third_question_text">"What is the name of this Amazonian species?"</string>
+    <!-- RadioButton first answer question 3 -->
+    <string name="third_question_radiobutton_first_answer">Toucan.</string>
+    <!-- RadioButton second answer question 3 -->
+    <string name="third_question_radiobutton_second_answer">Macaws.</string>
+    <!-- RadioButton third answer question 3 -->
+    <string name="third_question_radiobutton_third_answer" translatable="false">Hoatzin.</string>
+    <!-- Third question right answer message -->
+    <string name="third_question_right_message" translatable="false">The answer to third question is right.</string>
+    <!-- Third question wrong answer message -->
+    <string name="third_question_wrong_message" translatable="false">Sorry, the right answer to third question is Toucan.</string>
+
+    <!-- Fourth Question Name -->
+    <string name="fourth_question_header">* Question 4.</string>
+    <!-- Fourth Question text -->
+    <string name="fourth_question_text">Which conqueror is believed to have given the Amazonia its name?</string>
+    <!-- RadioButton first answer question 4 -->
+    <string name="fourth_question_radiobutton_first_answer" translatable="false">Francisco Pizarro.</string>
+    <!-- RadioButton second answer question 4 -->
+    <string name="fourth_question_radiobutton_second_answer" translatable="false">Francisco de Orellana.</string>
+    <!-- RadioButton third answer question 4 -->
+    <string name="fourth_question_radiobutton_third_answer">Hernan Cortes.</string>
+    <!-- Fourth question right answer message -->
+    <string name="fourth_question_right_message" translatable="false">The answer to fourth question is right.</string>
+    <!-- Fourth question wrong answer message -->
+    <string name="fourth_question_wrong_message" translatable="false">Sorry, the right answer to fourth question is Francisco de Orellana.</string>
+
+    <!-- Fifth Question Name -->
+    <string name="fifth_question_header">* Question 5.</string>
+    <!-- Fifth Question text -->
+    <string name="fifth_question_text">"Which country contains 60% of the Amazonian rainforest?"</string>
+    <!-- RadioButton first answer question 5 -->
+    <string name="fifth_question_radiobutton_first_answer">Peru.</string>
+    <!-- RadioButton second answer question 5 -->
+    <string name="fifth_question_radiobutton_second_answer">Brazil.</string>
+    <!-- RadioButton third answer question 5 -->
+    <string name="fifth_question_radiobutton_third_answer">Colombia.</string>
+    <!-- Fifth question right answer message -->
+    <string name="fifth_question_right_message" translatable="false">The answer to fifth question is right.</string>
+    <!-- Fifth question wrong answer message -->
+    <string name="fifth_question_wrong_message" translatable="false">Sorry, the right answer to fifth question is Brazil.</string>
+
+    <!-- Sixth Question Name -->
+    <string name="sixth_question_header">* Question 6.</string>
+    <!-- Sixth Question text -->
+    <string name="sixth_question_text">Which of these animals can you find in the Amazonia?</string>
+    <!-- Sixth Question First Check Button Answer -->
+    <string name="sixth_question_first_check_button_answer">Lamia Shark.</string>
+    <!-- Sixth Question Second Check Button Answer -->
+    <string name="sixth_question_second_check_button_answer">River Dolphin.</string>
+    <!-- Sixth Question Third Check Button Answer -->
+    <string name="sixth_question_third_check_button_answer">Manati.</string>
+    <!-- Sixth question right answer message -->
+    <string name="sixth_question_right_message" translatable="false">The answer to sixth question is right.</string>
+    <!-- Sixth question wrong answer message -->
+    <string name="sixth_question_wrong_message" translatable="false">Sorry, the right answer to sixth question is All of Them.</string>
+
+    <!-- Seventh Question Name -->
+    <string name="seventh_question_header">* Question 7.</string>
+    <!-- Seventh Question text -->
+    <string name="seventh_question_text">Do you think that the Amazon river is more than 5.000 miles long?</string>
+    <!-- Seventh Question Radio Button Yes -->
+    <string name="seventh_question_radiobutton_answer_yes">Yes.</string>
+    <!-- Seventh Question Radio Button No -->
+    <string name="seventh_question_radiobutton_answer_no" translatable="false">No.</string>
+    <!-- Seventh question right answer message -->
+    <string name="seventh_question_right_message" translatable="false">The answer to seventh question is right.</string>
+    <!-- Seventh question wrong answer message -->
+    <string name="seventh_question_wrong_message" translatable="false">Sorry, the right answer to seventh question is No.</string>
+
+    <!-- Eighth Question Name -->
+    <string name="eighth_question_header">* Question 8.</string>
+    <!-- Eighth Question text -->
+    <string name="eighth_question_text">What is the name of this Amazonian bird?</string>
+    <!-- RadioButton first answer question 8 -->
+    <string name="eighth_question_radiobutton_first_answer">Mealy Parrot.</string>
+    <!-- RadioButton second answer question 8 -->
+    <string name="eighth_question_radiobutton_second_answer">Masked Trogon.</string>
+    <!-- RadioButton third answer question 8 -->
+    <string name="eighth_question_radiobutton_third_answer">Scarlet Macaw.</string>
+    <!-- Eighth question right answer message -->
+    <string name="eighth_question_right_message" translatable="false">The answer to eighth question is right.</string>
+    <!-- Eighth question wrong answer message -->
+    <string name="eighth_question_wrong_message" translatable="false">Sorry, the right answer to eighth question is Scarlet Macaw.</string>
+
+    <!-- Ninth Question Name -->
+    <string name="ninth_question_header">* Question 9.</string>
+    <!-- Ninth Question text -->
+    <string name="ninth_question_text">What percentage of oxygen, in the whole world, is produced by the Amazonian forest?</string>
+    <!-- Ninth Question edittext hint -->
+    <string name="ninth_question_edittext_hint">Type % here</string>
+    <!-- Ninth question right answer message -->
+    <string name="ninth_question_right_message" translatable="false">The answer to ninth question is right, around 20%.</string>
+    <!-- Ninth question wrong answer message -->
+    <string name="ninth_question_wrong_message" translatable="false">Sorry, the right answer to ninth question is around 20%.</string>
+
+    <!-- Tenth Question Name -->
+    <string name="tenth_question_header">* Question 10.</string>
+    <!-- Tenth Question text -->
+    <string name="tenth_question_text">"Amazonia represents around what percentage of the planet's existing tropical forest?"</string>
+    <!-- RadioButton first answer question 10 -->
+    <string name="tenth_question_radiobutton_first_answer" translatable="false">75%.</string>
+    <!-- RadioButton second answer question 10 -->
+    <string name="tenth_question_radiobutton_second_answer" translatable="false">55%.</string>
+    <!-- RadioButton third answer question 10 -->
+    <string name="tenth_question_radiobutton_third_answer" translatable="false">45%.</string>
+    <!-- Tenth question right answer message -->
+    <string name="tenth_question_right_message" translatable="false">The answer to tenth question is right.</string>
+    <!-- Tenth question wrong answer message -->
+    <string name="tenth_question_wrong_message" translatable="false">Sorry, the right answer to tenth question is around 55%.</string>
+
+    <!-- Bonus Text Header -->
+    <string name="bonus_text_header">"Curious Fact;"</string>
+    <!-- Bonus Text -->
+    <string name="bonus_text">"DID YOU KNOW THAT 70% OF THE PLANTS KNOWN FOR THEIR ANTICANCER PROPERTIES COME FROM THE AMAZONIA!!!!"</string>
+
+    <!-- Button Get Score Text -->
+    <string name="button_score_quiz">GET QUIZ SCORE</string>
+    <!-- Showing final score text after evaluating the answers -->
+    <string name="button_score_quiz_final_message">"Your Quiz Score is: "</string>
+
+    <!-- Button Try Quiz Again -->
+    <string name="button_try_quiz_again">Want to try again?</string>
+
+</resources>
